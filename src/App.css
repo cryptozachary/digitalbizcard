@@ -74,6 +74,17 @@ body {
   color: white;
 }
 
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: white;
+}
+
+.website:hover {
+  color: #F3BF99;
+}
+
 .button-container {
   display: flex;
   flex-direction: row;
@@ -90,6 +101,12 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
+  cursor: pointer;
+}
+
+.btns:hover {
+  background-color:
+    #F3BF99;
 }
 
 .about-me {
@@ -131,5 +148,4 @@ body {
   background-color: #161619;
   border-radius: 0px 0px 10px 10px;
   padding: 19px;
-
 }

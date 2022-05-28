@@ -3,7 +3,7 @@ export default function Name() {
         <div className="name-container">
             <h2 className="name">Zachary Lipscomb</h2>
             <h4 className="dev-type">Full-Stack-Developer</h4>
-            <h6 className="website">ezmanagers.com</h6>
+            <h6 className="website"><a href="https://ezmanagers.com">ezmanagers.com</a></h6>
         </div>
     )
 }
