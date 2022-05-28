@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #23252C;
+}
+
+.app-container {
+  margin-top: 44px;
+  margin-bottom: 44px;
+}
+
+.photo-container {
+  width: 317px;
+  height: 317px;
+}
+
+.main-section-container {
+  width: 317px;
+  background-color: #1A1B21;
+}
+
+.second-section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 247px;
+  margin-top: 33px;
+  margin-left: 36px;
+  padding-bottom: 24px;
+
+
+}
+
+.my-photo {
+  width: 317px;
+  height: 317px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.name {
+  text-align: center;
+  padding-top: 21px;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30.26px;
+  color: white;
+}
+
+.dev-type {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 7px;
+  line-height: 15.50px;
+  color:
+    #F3BF99;
+}
+
+.website {
+  text-align: center;
+  font-size: 10px;
+  font-weight: 400;
+  margin-top: 8px;
+  line-height: 15.50px;
+  color: white;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  justify-content: space-evenly;
+}
+
+.btns {
+  width: 115px;
+  padding: 9px 13px 9px 11px;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.about-me {
+  font-size: 16px;
+  font-weight: 700;
+  /* margin-top: 8px; */
+  line-height: 24px;
+  color: #F5F5F5;
+}
+
+.about-info {
+  font-size: 10px;
+  font-weight: 400;
+  margin-top: 5px;
+  line-height: 15.5px;
+  color: #DCDCDC;
+}
+
+.int {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 8px;
+  line-height: 24px;
+  color: #F5F5F5;
+}
+
+.my-int {
+  font-size: 10px;
+  font-weight: 400;
+  margin-top: 5px;
+  line-height: 15.5px;
+  color: #DCDCDC;
+}
+
+.social-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #161619;
+  border-radius: 0px 0px 10px 10px;
+  padding: 19px;
+
+}
